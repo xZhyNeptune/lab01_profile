@@ -17,13 +17,13 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Lab L1 · [รหัสนักศึกษา]')),
+      appBar: AppBar(title: const Text('Lab L1 · 67104638')),
       body: Center(
         child: Column(
           mainAxisSize: MainAxisSize.min,
           children: [
             const Icon(Icons.person, size: 96),
-            const Text('นัฐกรณ์ ไพรพฤกษ์ · [รหัสนักศึกษา]'),
+            const Text('นัฐกรณ์ ไพรพฤกษ์ · 67104638'),
             Text('Likes: $_likes'),
             FilledButton(
               onPressed: _like,
